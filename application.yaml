@@ -1,0 +1,20 @@
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8090/eureka/
+  instance:
+    hostname: localhost
+    
+com:
+  exercise:
+    user:
+      service:
+        base:
+          url: http://user-service/users
+    listing:
+      service:
+        base:
+          url: http://listing-service/listings
+      
