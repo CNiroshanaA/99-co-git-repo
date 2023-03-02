@@ -12,7 +12,7 @@ com:
     user:
       service:
         base:
-          url: http://user-service/users
+          url: http://user-sesrvice/users
     listing:
       service:
         base:
